@@ -5,7 +5,15 @@
 
 
 .sukui-h1 {
-    @apply text-slate-900 text-5xl font-extrabold text-center
+    @apply text-slate-900 text-5xl font-extrabold
+}
+
+.sukui-h2 {
+    @apply text-slate-800 text-4xl font-extrabold
+}
+
+.sukui-h3 {
+    @apply text-slate-800 text-2xl font-semibold
 }
 
 .sukui-p {
@@ -24,10 +32,18 @@
     @apply bg-slate-100 text-slate-900 border border-slate-300 py-3 px-5 rounded-lg font-semibold;
 }
 
+.sukui-label {
+    @apply text-slate-800 text-lg font-medium block
+}
+
 .sukui-input {
-    @apply border border-slate-300 text-slate-500 py-3 px-5 rounded-lg bg-slate-100 w-full outline-none
+    @apply border border-slate-300 text-slate-500 py-3 px-5 rounded-lg bg-slate-100 w-full duration-700
 }
 
 .sukui-input:focus {
-    @apply border-2 border-blue-400
+    @apply outline-slate-800
+}
+
+.sukui-select {
+    @apply border border-slate-300 text-slate-500 py-3 px-5 rounded-lg bg-slate-100 w-full outline-none
 }
