@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Grotesk-Black";
+    src: url("./01.assets/fonts/Grotesque-Black.ttf");
+}
+
+@font-face {
+    font-family: "Grotesk-Extrabold";
+    src: url("./01.assets/fonts/Grotesque-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Grotesk-Bold";
+    src: url("./01.assets/fonts/Grotesque-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Nova-Bold";
+    src: url("./01.assets/fonts/Nova-Bold.otf");
+}
+
+@font-face {
+    font-family: "Nova-Regular";
+    src: url("./01.assets/fonts/Nova-Regular.otf");
+}
 
 
 .sukui-h1 {
